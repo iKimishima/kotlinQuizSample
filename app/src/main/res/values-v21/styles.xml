@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BTWriting" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/material_green</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+</resources>
