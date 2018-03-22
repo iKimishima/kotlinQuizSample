@@ -2,9 +2,10 @@ package com.best_teacher_inc.btwritingsample.ui.activity
 
 import android.content.Context
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v7.app.AppCompatActivity
 import com.best_teacher_inc.btwritingsample.R
 import com.best_teacher_inc.btwritingsample.ui.fragment.HomeFragment
 import com.best_teacher_inc.btwritingsample.ui.fragment.LessonListFragment

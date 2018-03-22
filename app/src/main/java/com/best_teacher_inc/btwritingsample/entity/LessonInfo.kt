@@ -16,5 +16,11 @@ data class LessonInfo (
     val title: String, //non-null
 
     @SerializedName("detail")
-    val detail: String //non-null
+    val detail: String, //non-null
+
+    @SerializedName("star")
+    val star: Long,//non-null
+
+    @SerializedName("lock")
+    val isLocked: Boolean //non-null
 )
