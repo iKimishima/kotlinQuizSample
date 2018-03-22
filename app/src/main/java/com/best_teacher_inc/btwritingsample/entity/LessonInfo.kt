@@ -10,11 +10,11 @@ import com.google.gson.annotations.SerializedName
 
 data class LessonInfo (
     @SerializedName("id")
-    var id: Long,
+    val id: Long, //non-null
 
     @SerializedName("title")
-    var title: String,
+    val title: String, //non-null
 
     @SerializedName("detail")
-    var detail: String
+    val detail: String //non-null
 )

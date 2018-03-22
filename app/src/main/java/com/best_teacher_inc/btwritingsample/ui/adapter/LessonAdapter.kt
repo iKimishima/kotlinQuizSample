@@ -12,6 +12,7 @@ import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import kotlinx.android.synthetic.main.list_item_lesson.*
 import kotlinx.android.synthetic.main.list_item_lesson.view.*
+import java.lang.reflect.Type
 
 import java.util.ArrayList
 
@@ -19,7 +20,7 @@ import java.util.ArrayList
  * Created by kimishima on 2018/03/20.
  */
 
-class NewLessonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class LessonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private lateinit var masters: List<LessonInfo>
 
@@ -42,9 +43,12 @@ class NewLessonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
 
         if (holder is ItemView) {
-            val item = masters[position]
+            val item = masters!![position]
 
-            holder.itemView.textViewTitle.text = "aaa"
+            holder.itemView.textViewTitle.text = item.title
+            holder.itemView.textViewLessonDetail.text = item.detail
+
+            
 
 //            LinearLayoutWritingLesson.setOnClickListener({ v ->
 //                if (listener != null) {
@@ -63,14 +67,15 @@ class NewLessonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return masters.size
+        return masters!!.size
         //TODO FOOTERをつける場合は+1
     }
 
     fun setMasters() {
+
+        //Moshiでパーズすることを検討したがうまく動かなかった。
         val gson =GsonBuilder().setPrettyPrinting().create()
         masters = gson.fromJson(lessonInfoJson, object : TypeToken<List<LessonInfo>>() {}.type)
-
 //        masters.clear()
 //        masters.addAll(items)
         notifyDataSetChanged()
@@ -107,20 +112,46 @@ class NewLessonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "[" +
                     "{" +
                     "'id': 1," +
-                    "'title': '動詞１'," +
-                    "'detail': 'ああああああ'" +
+                    "'title': 'Lesson1'," +
+                    "'detail': 'S(主語)とV(動詞)'," +
+                    "'star':2," +
+                    "'lock':false" +
                     "}," +
                     "{" +
                     "'id': 2," +
-                    "'title': '過去形'," +
-                    "'detail': 'あああああああ'" +
+                    "'title': 'Lesson2'," +
+                    "'detail': '人称'," +
+                    "'star':3," +
+                    "'lock':false" +
                     "}," +
                     "{" +
                     "'id': 3," +
-                    "'title': '仮定法'," +
-                    "'detail': 'ああああああああ'" +
+                    "'title': 'Lesson5'," +
+                    "'detail': 'be動詞:肯定文'," +
+                    "'star':1," +
+                    "'lock':false" +
+                    "}," +
+                    "{" +
+                    "'id': 1," +
+                    "'title': 'Lesson4'," +
+                    "'detail': 'be動詞:否定文と疑問文'," +
+                    "'star':2," +
+                    "'lock':false" +
+                    "}," +
+                    "{" +
+                    "'id': 2," +
+                    "'title': 'Lesson5'," +
+                    "'detail': '一般動詞(動作・状態)'," +
+                    "'star':3," +
+                    "'lock':false" +
+                    "}," +
+                    "{" +
+                    "'id': 3," +
+                    "'title': 'Lesson6'," +
+                    "'detail': '一般動詞(3人称単数)'," +
+                    "'star':1," +
+                    "'lock':false" +
                     "}" +
                     "]"
-
 
 }

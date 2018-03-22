@@ -7,11 +7,58 @@
     android:layout_height="match_parent"
     tools:context="com.best_teacher_inc.btwritingsample.ui.activity.MainActivity">
 
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/material_red">
+        android:layout_height="match_parent">
 
-    </FrameLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:theme="@style/MyActionBar"
+            app:title="Lesson"
+            />
+
+
+        <FrameLayout
+            android:id="@+id/frameLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar">
+
+            <!--<ViewAnimator-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:displayedChild="@{viewModel.displayedChild}">-->
+
+            <!--<include-->
+            <!--android:id="@+id/loading"-->
+            <!--layout="@layout/layout_loading" />-->
+
+            <!--<android.support.v4.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/swipeRefreshLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--&gt;-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+            <!--<include-->
+            <!--android:id="@+id/error"-->
+            <!--layout="@layout/layout_network_error" />-->
+            <!--</ViewAnimator>-->
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_below="@id/toolbar" />
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
