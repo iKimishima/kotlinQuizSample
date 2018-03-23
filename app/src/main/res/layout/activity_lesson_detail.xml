@@ -381,6 +381,7 @@
                 </LinearLayout>
 
                 <Button
+                    android:id="@+id/buttonStep1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
@@ -446,6 +447,7 @@
                 </LinearLayout>
 
                 <Button
+                    android:id="@+id/buttonStep2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
@@ -511,6 +513,7 @@
                 </LinearLayout>
 
                 <Button
+                    android:id="@+id/buttonStep3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"

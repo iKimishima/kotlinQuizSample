@@ -27,7 +27,31 @@ class LessonDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_detail)
-        textViewLesson.text = intent.getIntExtra(KEY_LESSON_ID, 0).toString()
+        setupView()
+        setupListener()
+
+    }
+
+    fun setupView() {
+        //TODO 解説文の表示
+        //TOOD
+    }
+
+    fun setupListener() {
+        toolbar.setNavigationOnClickListener{
+            finish()
+        }
+
+
+        buttonStep1.setOnClickListener {
+            startActivity(StepOneActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
+        }
+        buttonStep2.setOnClickListener {
+
+        }
+        buttonStep3.setOnClickListener {
+
+        }
     }
 
 }
