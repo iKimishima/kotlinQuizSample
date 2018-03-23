@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".ui.activity.LessonDetailActivity" />
         <activity android:name=".ui.activity.StepOneActivity" />
+        <activity android:name=".ui.activity.StepTwoActivity" />
     </application>
 
 </manifest>

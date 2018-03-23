@@ -45,12 +45,13 @@ class LessonListFragment : Fragment() {
         this.adapter!!.onItemClicked = { item: LessonInfo, position: Int -> this.onItemClicked(item, position) }
     }
 
-    private fun onItemClicked (item:LessonInfo, position: Int) {
+    private fun onItemClicked(item: LessonInfo, position: Int) {
         if (item.isLocked) {
             Toast.makeText(activity, "Shopへ", Toast.LENGTH_SHORT).show()
         } else {
             startActivity(LessonDetailActivity.newIntent(activity, position))
         }
     }
+
 
 }

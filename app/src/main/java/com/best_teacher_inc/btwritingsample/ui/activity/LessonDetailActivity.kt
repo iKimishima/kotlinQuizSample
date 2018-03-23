@@ -16,7 +16,7 @@ class LessonDetailActivity : AppCompatActivity() {
     companion object {
         const val KEY_LESSON_ID = "lesson_id"
 
-        fun newIntent (context: Context, id: Int) : Intent {
+        fun newIntent(context: Context, id: Int): Intent {
             val intent = Intent(context, LessonDetailActivity::class.java)
             intent.putExtra(KEY_LESSON_ID, id)
             return intent
@@ -38,7 +38,7 @@ class LessonDetailActivity : AppCompatActivity() {
     }
 
     fun setupListener() {
-        toolbar.setNavigationOnClickListener{
+        toolbar.setNavigationOnClickListener {
             finish()
         }
 
@@ -47,7 +47,7 @@ class LessonDetailActivity : AppCompatActivity() {
             startActivity(StepOneActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
         }
         buttonStep2.setOnClickListener {
-
+            startActivity(StepTwoActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
         }
         buttonStep3.setOnClickListener {
 

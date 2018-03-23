@@ -5,19 +5,19 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.best_teacher_inc.btwritingsample.R
-import kotlinx.android.synthetic.main.activity_step_one.*
+import kotlinx.android.synthetic.main.activity_step_two.*
 
 /**
  * Created by kimishima on 2018/03/23.
  */
 
-class StepOneActivity : AppCompatActivity() {
+class StepTwoActivity : AppCompatActivity() {
 
     companion object {
         const val KEY_LESSON_ID = "lesson_id"
 
         fun newIntent(context: Context, id: Int): Intent {
-            val intent = Intent(context, StepOneActivity::class.java)
+            val intent = Intent(context, StepTwoActivity::class.java)
             intent.putExtra(KEY_LESSON_ID, id)
             return intent
         }
@@ -26,11 +26,9 @@ class StepOneActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_step_one)
+        setContentView(R.layout.activity_step_two)
         setupView()
         setupListener()
-
-
     }
 
     fun setupView() {
@@ -42,5 +40,4 @@ class StepOneActivity : AppCompatActivity() {
         toolbar.setOnClickListener { finish() }
 
     }
-
 }
