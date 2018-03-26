@@ -385,7 +385,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/primary"
+                    android:background="@color/material_green"
                     android:text="Start"
                     android:textColor="@color/whiteText" />
             </LinearLayout>
@@ -451,7 +451,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/primary"
+                    android:background="@color/material_green"
                     android:text="Start"
                     android:textColor="@color/whiteText" />
             </LinearLayout>
@@ -517,7 +517,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/primary"
+                    android:background="@color/material_green"
                     android:text="Start"
                     android:textColor="@color/whiteText" />
             </LinearLayout>

@@ -50,7 +50,7 @@ class LessonDetailActivity : AppCompatActivity() {
             startActivity(StepTwoActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
         }
         buttonStep3.setOnClickListener {
-
+            startActivity(StepThreeActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
         }
     }
 

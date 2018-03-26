@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,42 +20,177 @@
             app:title="自由英作文" />
 
 
-            <android.support.v4.widget.NestedScrollView
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/frameLayoutEditFieldContainer"
+            android:layout_below="@id/toolbar">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@id/toolbar">
+                android:background="@color/background"
+                android:orientation="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/background"
-                    android:orientation="vertical"
-                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="第2問/5問中" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" _ _ _ _ " />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:listDivider" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Step1, Step2で学んだS(主語) + V(動詞)を使って、Bettyの質問に英語で答えましょう。" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:listDivider" />
+
+                <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/recyclerView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" />-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="32dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
-                        android:id="@+id/ImageViewThumbnail"
-                        android:layout_width="match_parent"
-                        android:layout_height="180dp"
-                        android:background="@color/background"
-                        android:src="@drawable/betty_confused_clear"
-                        android:visibility="visible" />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="?android:listDivider" />
+                        android:id="@+id/imageViewBetty2"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/betty_clear" />
 
-                    <View
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="?android:listDivider" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/fukidashi_green"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="10dp">
 
-                    <android.support.v7.widget.RecyclerView
-                        android:id="@+id/recyclerView"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/textViewBetty2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hi! I'm Betty. Nice to meet you. What is your name? (ハーイ、私ベッティ。お会いできてうれしいわ。あなたのお名前はなんていうの？"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
                 </LinearLayout>
-            </android.support.v4.widget.NestedScrollView>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="5dp"
+
+                            android:background="@drawable/fukidashi_gray"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp">
+
+                            <TextView
+                                android:id="@+id/textViewTanaka1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Hi Betty. Nice to meet you too. I'm Sachiko Tanaka."
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="32dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/betty_clear" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/fukidashi_green"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="It's a nice name. I am a junior high school second grader. How about you?(素敵なお名前ね。わたしは中学2年生なのあなたは？)"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
 
 
         <FrameLayout
@@ -70,7 +205,7 @@
                 android:id="@+id/linearLayoutReplyArea"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/material_green"
+                android:background="@color/light_green"
                 android:orientation="vertical">
 
                 <View
@@ -96,9 +231,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
-                        tools:text= "単語" />
+                        tools:text="単語" />
                 </LinearLayout>
-
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -127,13 +261,11 @@
                         android:layout_width="50dp"
                         android:layout_height="40dp"
                         android:layout_gravity="center_vertical"
-                        android:background="@color/primary"
+                        android:background="@color/material_green"
                         android:text="返信"
                         android:textColor="@color/background" />
                 </LinearLayout>
             </LinearLayout>
-
-
         </FrameLayout>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

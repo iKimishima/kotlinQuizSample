@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="primary">#90ee90</color>
-    <color name="primaryDark">#3e663e</color>
+    <color name="primary">#fffafa</color>
+    <color name="primaryDark">#dcdcdc</color>
     <color name="accent">#ed91ed</color>
     <color name="triadBlue">#9191ed</color>
     <color name="triadRed">#ed9191</color>
@@ -22,6 +22,7 @@
     <color name="material_red">#e57373</color>
     <color name="speaking_yellow">#d5cc58</color>
 
-
     <color name="disable_clear">#aa232323</color>
+    <color name="light_green">#90ee90</color>
+
 </resources>
