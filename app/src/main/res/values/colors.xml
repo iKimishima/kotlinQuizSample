@@ -24,5 +24,6 @@
 
     <color name="disable_clear">#aa232323</color>
     <color name="light_green">#90ee90</color>
+    <color name="clear">#00000000</color>
 
 </resources>
