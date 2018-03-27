@@ -2,6 +2,7 @@ package com.best_teacher_inc.btwritingsample.ui.fragment
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
@@ -35,6 +36,7 @@ class MyEnglishListFragment : Fragment() {
         adapter = MyEnglishAdapter()
         val manager = LinearLayoutManager(activity)
         recyclerView.layoutManager = manager
+        recyclerView.addItemDecoration(DividerItemDecoration(activity, DividerItemDecoration.HORIZONTAL))
         recyclerView.isNestedScrollingEnabled = false
         recyclerView.adapter = adapter
     }
