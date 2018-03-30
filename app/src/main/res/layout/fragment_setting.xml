@@ -1,12 +1,360 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/material_yellow">
+        android:layout_height="match_parent">
 
-    </FrameLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:theme="@style/MyActionBar"
+            app:title="@string/tab_settings"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:background="@color/primary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:background="@color/primary_dark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/settings_jp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/profile" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewEditUserInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/edit_user_info" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewChangePassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/change_password" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewSettingPushNotification"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/setting_push_notification" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewSettingReadVoice"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/setting_read_voice" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:background="@color/primary_dark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/support" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewWriteReview"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/write_review" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewReportBugAndOpinion"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/report_bug_and_opinion" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <TextView
+                        android:id="@+id/textViewHelpAndQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="@string/help_and_question" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:listDivider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:background="@color/primary_dark"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/about_best_teacher" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                        <TextView
+                            android:id="@+id/textViewAnnounce"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/announce" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                        <TextView
+                            android:id="@+id/textViewTerms"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/terms_of_service" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                        <TextView
+                            android:id="@+id/textViewPrivacyPolicy"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/privacy_policy" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                        <TextView
+                            android:id="@+id/textViewGovernmentInfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/government" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="48dp"
+                                android:layout_weight="1"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/version" />
+
+                            <TextView
+                                android:id="@+id/textViewVersion"
+                                tools:text="1.1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="48dp"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:gravity="center_vertical|right"
+                                android:paddingRight="16dp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                        <TextView
+                            android:id="@+id/textViewCopyright"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/copyright" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:listDivider" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@color/primary_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="@string/other" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:listDivider" />
+
+                <TextView
+                    android:id="@+id/textViewTutorial"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="@string/tutorial" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewUserAvatar"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/betty_sullen_clear" />
+
+                    <TextView
+                        android:id="@+id/textViewLogout"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:text="@string/logout" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:listDivider" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

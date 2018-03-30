@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.best_teacher_inc.btwritingsample.R
 import com.best_teacher_inc.btwritingsample.entity.MyEnglishData
+import com.best_teacher_inc.btwritingsample.ui.activity.MyEnglishDetailActivity
 import com.best_teacher_inc.btwritingsample.ui.adapter.MyEnglishAdapter
 import kotlinx.android.synthetic.main.fragment_my_english_list.*
 
@@ -49,6 +50,7 @@ class MyEnglishListFragment : Fragment() {
 
     //TODO
     private fun onItemClicked(item: MyEnglishData, position: Int) {
+        startActivity(MyEnglishDetailActivity.newIntent(activity, position))
         Toast.makeText(activity, "復習すっぞ" + position.toString(), Toast.LENGTH_SHORT).show()
     }
 }

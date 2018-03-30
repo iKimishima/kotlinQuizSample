@@ -6,4 +6,34 @@
     <string name="tab_lesson">Lesson</string>
     <string name="tab_my_english">My english</string>
     <string name="tab_settings">Setting</string>
+
+
+    <!-- 設定 -->
+    <string name="settings_jp">設定</string>
+    <string name="profile">プロフィール</string>
+    <string name="edit_user_info">ユーザー情報の編集</string>
+    <string name="change_password">パスワード変更</string>
+    <string name="setting_push_notification">プッシュ通知設定</string>
+    <string name="setting_read_voice">読み上げ音声設定</string>
+    <string name="support">サポート</string>
+    <string name="write_review">Best Teacherのレビューを書く</string>
+    <string name="report_bug_and_opinion">不具合・ご意見を報告する</string>
+    <string name="help_and_question">ヘルプ・よくある質問</string>
+    <string name="about_best_teacher">Best Teacherについて</string>
+    <string name="announce">運営からのお知らせ</string>
+    <string name="terms_of_service">利用規約</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="government">運営者情報</string>
+    <string name="version">バージョン</string>
+    <string name="copyright">オープンソースライセンス</string>
+    <string name="other">その他</string>
+    <string name="tutorial">チュートリアル</string>
+    <string name="logout">%sをログアウトする</string>
+    <string name="no_avatar_url">user/original/missing.png</string>
+
+    <string name="message_confirm_logout">ログアウトしますか？</string>
+    <string name="message_logout_success">ログアウトしました。</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="cancel">キャンセル</string>
 </resources>

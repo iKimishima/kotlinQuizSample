@@ -19,6 +19,7 @@
         <activity android:name=".ui.activity.StepOneActivity" />
         <activity android:name=".ui.activity.StepTwoActivity" />
         <activity android:name=".ui.activity.StepThreeActivity" />
+        <activity android:name=".ui.activity.MyEnglishDetailActivity" />
     </application>
 
 </manifest>

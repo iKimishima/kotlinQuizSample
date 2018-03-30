@@ -5,15 +5,15 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.best_teacher_inc.btwritingsample.R
-import kotlinx.android.synthetic.main.activity_lesson_detail.*
+import kotlinx.android.synthetic.main.activity_my_english.*
 
-class LessonDetailActivity : AppCompatActivity() {
+class MyEnglishDetailActivity : AppCompatActivity() {
 
     companion object {
         const val KEY_LESSON_ID = "lesson_id"
 
         fun newIntent(context: Context, id: Int): Intent {
-            val intent = Intent(context, LessonDetailActivity::class.java)
+            val intent = Intent(context, MyEnglishDetailActivity::class.java)
             intent.putExtra(KEY_LESSON_ID, id)
             return intent
         }
@@ -22,7 +22,7 @@ class LessonDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lesson_detail)
+        setContentView(R.layout.activity_my_english)
         setupView()
         setupListener()
 
@@ -37,17 +37,5 @@ class LessonDetailActivity : AppCompatActivity() {
         toolbar.setNavigationOnClickListener {
             finish()
         }
-
-
-        buttonStep1.setOnClickListener {
-            startActivity(StepOneActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
-        }
-        buttonStep2.setOnClickListener {
-            startActivity(StepTwoActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
-        }
-        buttonStep3.setOnClickListener {
-            startActivity(StepThreeActivity.newIntent(this, intent.getIntExtra(KEY_LESSON_ID, 1)))
-        }
     }
-
 }

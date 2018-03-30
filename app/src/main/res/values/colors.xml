@@ -26,4 +26,6 @@
     <color name="light_green">#90ee90</color>
     <color name="clear">#00000000</color>
 
+    <color name="primary_dark">#dcdcdc</color>
+
 </resources>
