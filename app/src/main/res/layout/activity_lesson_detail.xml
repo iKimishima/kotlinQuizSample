@@ -55,8 +55,9 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="36dp"
-                            android:layout_height="36dp"
+                            android:id="@+id/imageViewBetty1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="bottom"
                             android:src="@drawable/betty_happy_clear" />
 
@@ -127,8 +128,8 @@
 
                         <ImageView
                             android:id="@+id/imageViewTanaka1"
-                            android:layout_width="36dp"
-                            android:layout_height="36dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="bottom"
                             android:layout_weight="0.03"
                             android:src="@drawable/tanasyo_bouzen_clear" />
@@ -153,8 +154,8 @@
 
                         <ImageView
                             android:id="@+id/imageViewBetty2"
-                            android:layout_width="36dp"
-                            android:layout_height="36dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="bottom"
                             android:src="@drawable/betty_smile_angry" />
 
@@ -214,7 +215,7 @@
                             android:paddingTop="10dp">
 
                             <TextView
-                                android:id="@+id/textViewTanaka"
+                                android:id="@+id/textViewTanaka2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="16sp"
@@ -223,9 +224,9 @@
                         </LinearLayout>
 
                         <ImageView
-                            android:id="@+id/imageViewTanaka"
-                            android:layout_width="36dp"
-                            android:layout_height="36dp"
+                            android:id="@+id/imageViewTanaka2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="bottom"
                             android:layout_weight="0.03"
                             android:src="@drawable/tanasyo_bouzen_clear" />
@@ -250,8 +251,8 @@
 
                         <ImageView
                             android:id="@+id/imageViewBetty3"
-                            android:layout_width="36dp"
-                            android:layout_height="36dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="bottom"
                             android:src="@drawable/betty_clear" />
 
@@ -289,25 +290,75 @@
                     android:paddingLeft="12dp"
                     android:paddingTop="5dp">
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="0.95"
+                            android:background="@drawable/fukidashi_gray"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp">
+
+                            <TextView
+                                android:id="@+id/textViewTanaka3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="すみません。" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageViewTanaka3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="0.03"
+                            android:src="@drawable/tanasyo_bouzen_clear" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp">
 
                     <TextView
                         android:id="@+id/textViewPoint"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:textSize="16sp"
-                        tools:text="このレッスンのポイント" />
+                        android:textColor="@color/material_green"
+                        android:textStyle="bold"
+                        android:text="このレッスンのポイント" />
 
                     <TextView
                         android:id="@+id/textViewPointDetail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/button_accent_frame"
+                        android:padding="5dp"
                         android:textSize="14sp"
-                        android:text="要は「誰が/何が(主語) + 「~する/である(動詞)」」
-最初に英文法の学習で絶対に必要な3つの品詞を抑えておこう。
-・名詞　人・モノなどの名前を表すことば
-・動詞　動作・状態を表すことば
-・形容詞　人・モノの形や性質を表すことば
-" />
+                        android:text="要は「誰が/何が(主語) + 「~する/である(動詞)」」" />
                 </LinearLayout>
                 <View
                     android:layout_width="match_parent"

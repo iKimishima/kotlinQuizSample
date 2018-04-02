@@ -116,42 +116,42 @@ class LessonAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                     "{" +
                     "'id': 1," +
                     "'title': 'Lesson1'," +
-                    "'detail': 'S(主語)とV(動詞)'," +
+                    "'detail': 'SV(主語 + 動詞)'," +
                     "'star':0," +
                     "'lock':false" +
                     "}," +
                     "{" +
                     "'id': 2," +
                     "'title': 'Lesson2'," +
-                    "'detail': '人称'," +
-                    "'star':3," +
+                    "'detail': '否定文(not)'," +
+                    "'star':2," +
                     "'lock':false" +
                     "}," +
                     "{" +
                     "'id': 3," +
-                    "'title': 'Lesson5'," +
-                    "'detail': 'be動詞:肯定文'," +
-                    "'star':1," +
-                    "'lock':false" +
+                    "'title': 'Lesson3'," +
+                    "'detail': '疑問文'," +
+                    "'star':0," +
+                    "'lock':true" +
                     "}," +
                     "{" +
                     "'id': 1," +
                     "'title': 'Lesson4'," +
-                    "'detail': 'be動詞:否定文と疑問文'," +
+                    "'detail': '過去形'," +
                     "'star':0," +
                     "'lock':true" +
                     "}," +
                     "{" +
                     "'id': 2," +
                     "'title': 'Lesson5'," +
-                    "'detail': '一般動詞(動作・状態)'," +
+                    "'detail': '過去完了'," +
                     "'star':0," +
                     "'lock':true" +
                     "}," +
                     "{" +
                     "'id': 3," +
                     "'title': 'Lesson6'," +
-                    "'detail': '一般動詞(3人称単数)'," +
+                    "'detail': '関係代名詞'," +
                     "'star':0," +
                     "'lock':true" +
                     "}" +

@@ -36,4 +36,7 @@
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <string name="cancel">キャンセル</string>
+
+    <string name="correct_count">%d / 10</string>
+
 </resources>
