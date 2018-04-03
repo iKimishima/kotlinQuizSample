@@ -43,5 +43,24 @@
     <string name="answer_three"><u>③_____</u></string>
     <string name="answer_four"><u>④_____</u></string>
 
-
+    <string name="message_teacher_turn">講師からの返信を待ちましょう！\n数分から1時間程度で返信があります。</string>
+    <string name="message_user_turn">講師に返信しましょう！\n(最大であと%d回返信できます)</string>
+    <string name="message_writing_done">講師からの添削を待ちましょう！\n添削には数時間から3日程かかる場合があります。</string>
+    <string name="message_back_confirm">入力中の文章は保存されません。この画面を離れますか？</string>
+    <string name="message_writing_validation">使用できない文字( %s )が含まれています。</string>
+    <string name="message_writing_count_over">語以内で返信してください。</string>
+    <string name="writing_confirm_reply">返信する内容を確認しましょう</string>
+    <string name="writing_reply">この内容で返信</string>
+    <string name="writing_lesson_finish">この内容で返信してレッスン終了</string>
+    <string name="writing_post_success">送信完了しました。</string>
+    <string name="writing_post_failure">Oops,送信はまだできていません。</string>
+    <string name="writing_wait_reply">講師からの返信を待ちましょう。\n返信を待っている間に、\n他のレッスンを進めましょう！</string>
+    <string name="writing_post_retry">送信に失敗しました。</string>
+    <string name="select_new_lesson">新しくレッスンを選択する</string>
+    <string name="message_select_new_lesson">新しいレッスンを選択して\nBestTeacherの英語学習を始めましょう！</string>
+    <string name="message_no_item_free">現在、無料期間中の為、\n開始できるレッスンは%dつまでです。\nこれまでのレッスンを復習しましょう。</string>
+    <string name="message_to_charge_user"><u>有料会員になると、レッスン無制限に！</u></string>
+    <string name="to_review">Reviewページへ</string>
+    <string name="message_lesson_cancel_confirm">本当にキャンセルしてよろしいですか？\nこの操作は、元に戻すことはできません。</string>
+    <string name="message_lesson_cancel">レッスンキャンセル</string>
 </resources>

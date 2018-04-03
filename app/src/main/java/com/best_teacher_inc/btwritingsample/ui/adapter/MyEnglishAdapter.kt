@@ -83,7 +83,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"sharedLessonId\": 7694," +
             "\"dialogMaster\": {" +
             "\"id\": 221," +
-            "\"japaneseTitle\": \"S(主語)とM(同士)\"," +
+            "\"japaneseTitle\": \"SV(主語+動詞)\"," +
             "\"bot\": \"Which do you like, S or M?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
@@ -95,9 +95,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If i had to choose one, I am S.\"," +
+            "\"content\": \"If I had to choose one, I am S.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If i had to choose one, I am S.\"," +
+            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -118,7 +118,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"sharedLessonId\": 7694," +
             "\"dialogMaster\": {" +
             "\"id\": 221," +
-            "\"japaneseTitle\": \"S(主語)とM(同士)\"," +
+            "\"japaneseTitle\": \"SV(主語+動詞)\"," +
             "\"bot\": \"Which do you like, S or M?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
@@ -130,9 +130,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If i had to choose one, I am S.\"," +
+            "\"content\": \"If I had to choose one, I am S.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If i had to choose one, I am S.\"," +
+            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -153,7 +153,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"sharedLessonId\": 7694," +
             "\"dialogMaster\": {" +
             "\"id\": 221," +
-            "\"japaneseTitle\": \"S(主語)とM(同士)\"," +
+            "\"japaneseTitle\": \"SV(主語+動詞)\"," +
             "\"bot\": \"Which do you like, S or M?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
@@ -165,9 +165,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If i had to choose one, I am S.\"," +
+            "\"content\": \"If I had to choose one, I am S.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If i had to choose one, I am S.\"," +
+            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -188,7 +188,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"sharedLessonId\": 7694," +
             "\"dialogMaster\": {" +
             "\"id\": 221," +
-            "\"japaneseTitle\": \"S(主語)とM(同士)\"," +
+            "\"japaneseTitle\": \"SV(主語+動詞)\"," +
             "\"bot\": \"Which do you like, S or M?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
@@ -200,9 +200,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If i had to choose one, I am S.\"," +
+            "\"content\": \"If I had to choose one, I am S.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If i had to choose one, I am S.\"," +
+            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +

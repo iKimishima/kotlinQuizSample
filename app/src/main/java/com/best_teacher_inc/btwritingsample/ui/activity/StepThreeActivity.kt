@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.best_teacher_inc.btwritingsample.R
+import com.best_teacher_inc.btwritingsample.ui.dialog.WritingPostDialogFragment
 import kotlinx.android.synthetic.main.activity_step_three.*
 
 /**
@@ -15,6 +16,8 @@ class StepThreeActivity : AppCompatActivity() {
 
     companion object {
         const val KEY_LESSON_ID = "lesson_id"
+        const val POST_FRAGMENT_TAG = "WritingPostDialogFragment"
+        const val KEY_POST_WRITING = "post_writing"
 
         fun newIntent(context: Context, id: Int): Intent {
             val intent = Intent(context, StepThreeActivity::class.java)
@@ -38,5 +41,15 @@ class StepThreeActivity : AppCompatActivity() {
 
     fun setupListener() {
         toolbar.setOnClickListener { finish() }
+        buttonSendWritingLesson.setOnClickListener { showWritingPostDialog(editTextWritingLesson.text.toString()) }
+    }
+
+    private fun showWritingPostDialog(post: String) {
+        val args = Bundle()
+        args.putString(KEY_POST_WRITING, post)
+
+        val dialogFragment = WritingPostDialogFragment()
+        dialogFragment.setArguments(args)
+        dialogFragment.show(supportFragmentManager, POST_FRAGMENT_TAG)
     }
 }
