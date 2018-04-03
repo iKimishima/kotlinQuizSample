@@ -38,5 +38,10 @@
     <string name="cancel">キャンセル</string>
 
     <string name="correct_count">%d / 10</string>
+    <string name="answer_one"><u>①_____</u></string>
+    <string name="answer_two"><u>②_____</u></string>
+    <string name="answer_three"><u>③_____</u></string>
+    <string name="answer_four"><u>④_____</u></string>
+
 
 </resources>
