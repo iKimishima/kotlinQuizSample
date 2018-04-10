@@ -20,7 +20,7 @@ class LessonResultActivity : AppCompatActivity() {
         }
     }
 
-    override fun onCreate(savedInstanceState: Bundle? ) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_result)
         setupView()
@@ -35,15 +35,15 @@ class LessonResultActivity : AppCompatActivity() {
                 textViewBettyComment.text = "すごいじゃない！この調子で頑張ってね。"
                 imageViewBettyResult.setImageResource(R.drawable.betty_happy_clear)
             }
-            9,8 -> {
+            9, 8 -> {
                 textViewBettyComment.text = "へぇ、結構やるじゃない。"
                 imageViewBettyResult.setImageResource(R.drawable.betty_amazed_clear)
             }
-            7,6 -> {
+            7, 6 -> {
                 textViewBettyComment.text = "まぁまぁってとこね"
                 imageViewBettyResult.setImageResource(R.drawable.betty_scorn_clear)
             }
-            5,4,3 -> {
+            5, 4, 3 -> {
                 textViewBettyComment.text = "ちょっとヤバイかも..."
                 imageViewBettyResult.setImageResource(R.drawable.betty_confused_clear)
             }
@@ -52,8 +52,6 @@ class LessonResultActivity : AppCompatActivity() {
                 imageViewBettyResult.setImageResource(R.drawable.betty_smile_angry)
             }
         }
-
-
     }
 
     fun setupListener() {

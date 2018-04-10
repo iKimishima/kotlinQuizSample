@@ -63,4 +63,8 @@
     <string name="to_review">Reviewページへ</string>
     <string name="message_lesson_cancel_confirm">本当にキャンセルしてよろしいですか？\nこの操作は、元に戻すことはできません。</string>
     <string name="message_lesson_cancel">レッスンキャンセル</string>
+
+
+    <!--Shop 注意事項-->
+    <string name="shop_notice">一年継続プランの期間中の途中解約、返金はできません。月額サービスは期間満了後、お申し込み時と</string>
 </resources>

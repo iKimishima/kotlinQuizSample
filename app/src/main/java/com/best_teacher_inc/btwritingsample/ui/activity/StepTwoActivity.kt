@@ -183,7 +183,7 @@ class StepTwoActivity : AppCompatActivity() {
                     "'questionAfter': '.'," +
                     "'japanese': '私は納豆が好きではありません。'," +
                     "'selectList': ['am', 'don\\'t', 'not', 'like', 'natto', 'I']," +
-                    "'answer':'do not like natto'," +
+                    "'answer':'I don\\'t like natto'," +
                     "'explanation':'do / does / did + not + 動詞の原形 で、「〜をしない」'" +
                     "}," +
                     "{" +
@@ -229,7 +229,7 @@ class StepTwoActivity : AppCompatActivity() {
                     "'questionAfter': '.'," +
                     "'japanese': '私は納豆が好きではありません。'," +
                     "'selectList': ['am', 'don\\'t', 'not', 'like', 'natto', 'I']," +
-                    "'answer':'do not like natto'," +
+                    "'answer':'I don\\'t like natto'," +
                     "'explanation':'do / does / did + not + 動詞の原形 で、「〜をしない」'" +
                     "}," +
                     "{" +

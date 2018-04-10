@@ -84,7 +84,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"dialogMaster\": {" +
             "\"id\": 221," +
             "\"japaneseTitle\": \"SV(主語+動詞)\"," +
-            "\"bot\": \"Which do you like, S or M?\"," +
+            "\"bot\": \"Hello. How are you? What is your name?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
             "\"user\": {" +
@@ -95,9 +95,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If I had to choose one, I am S.\"," +
+            "\"content\": \"I am Sachiko. Nece to meet you.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
+            "\"correctedContent\": \"I am Sachiko. Nece to meet you.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -119,7 +119,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"dialogMaster\": {" +
             "\"id\": 221," +
             "\"japaneseTitle\": \"SV(主語+動詞)\"," +
-            "\"bot\": \"Which do you like, S or M?\"," +
+            "\"bot\": \"Hello. How are you? What is your name?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
             "\"user\": {" +
@@ -130,9 +130,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If I had to choose one, I am S.\"," +
+            "\"content\": \"I am Sachiko. Nece to meet you.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
+            "\"correctedContent\": \"I am Sachiko. Nece to meet you.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -154,7 +154,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"dialogMaster\": {" +
             "\"id\": 221," +
             "\"japaneseTitle\": \"SV(主語+動詞)\"," +
-            "\"bot\": \"Which do you like, S or M?\"," +
+            "\"bot\": \"Hello. How are you? What is your name?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
             "\"user\": {" +
@@ -165,9 +165,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If I had to choose one, I am S.\"," +
+            "\"content\": \"I am Sachiko. Nece to meet you.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
+            "\"correctedContent\": \"I am Sachiko. Nece to meet you.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -189,7 +189,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"dialogMaster\": {" +
             "\"id\": 221," +
             "\"japaneseTitle\": \"SV(主語+動詞)\"," +
-            "\"bot\": \"Which do you like, S or M?\"," +
+            "\"bot\": \"Hello. How are you? What is your name?\"," +
             "\"image\": \"http://s3.amazonaws.com/test-best-teacher/image/dialog_master/image/221/original.jpg\"" +
             "}," +
             "\"user\": {" +
@@ -200,9 +200,9 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "}," +
             "\"phrase\": {" +
             "\"id\": 58848," +
-            "\"content\": \"If I had to choose one, I am S.\"," +
+            "\"content\": \"I am Sachiko. Nece to meet you.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"If I had to choose one, I am S.\"," +
+            "\"correctedContent\": \"I am Sachiko. Nece to meet you.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
@@ -237,7 +237,7 @@ class MyEnglishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             "\"id\": 58848," +
             "\"content\": \"My father works as an engineer. He makes 'Love Doll' at a company called Oriental Industry.\"," +
             "\"reviewedContent\": \"<p><span style=\\\"color: #8a9299; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; line-height: 15.59375px; -webkit-text-size-adjust: none;\\\">I often cook pasta. It's easy and delicious! (great, you may also say \\\"I<span style=\\\"text-decoration: underline;\\\"> usually</span> cook pasta...\\\")</span></p>\"," +
-            "\"correctedContent\": \"My father works as an engineer. He makes 'Love Doll' at a company called Oriental Industry.\"," +
+            "\"correctedContent\": \"My father works as an engineer. He makes smartphone application.\"," +
             "\"voiceUrl\": \"user/original/missing.mp3\"" +
             "}," +
             "\"highScore\": {" +
